@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>   //uncomment this if you are on  code blocks.Dont worry it wont effect the code if you dont do it.
 #include<stdlib.h>
 #include<string.h>
 
@@ -128,7 +128,7 @@ int z=0,chance=0;
     p=temp[i];
 
     printf("\nNikhil's turn --Press any key\n");
-    _getch();
+    //_getch();      Remove this comment if you are on code blocks ,it won't effect anything in this game if you dont remove this.
     fill(p,arr,c);
     display(arr);
     int checky=check(arr,c1,c);if(checky==1)return 1;chance++;if(chance==9){printf("\nOyeaahh This is a Draw\n"); return 1;}
@@ -173,7 +173,7 @@ for(x=0;x<=i;x++)
  temp[i]=r;
     p=temp[i];
     printf("\nNikhil's turn --Press any key\n");
-  _getch();
+  //_getch();       //uncomment this if you are on  code blocks.Dont worry it wont effect the code if you dont do it.
     fill(p,arr,c);
     display(arr);
     checky=check(arr,c1,c);if(checky==1)return 1;chance++;if(chance==9){printf("\nOyeaahh This is a Draw\n"); return 1;}
